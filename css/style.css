@@ -1,0 +1,53 @@
+*{
+   padding: 0;
+   box-sizing: border-box;
+   text-align: center;
+
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-color: palevioletred;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+
+}
+section:first-of-type{
+    margin-bottom: 2rem;
+}
+section:last-of-type{
+    margin: 2rem auto;
+}
+section{
+    width: 50%;
+    padding: 1rem ;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    border: 1px solid palevioletred;
+
+}
+input:focus{
+    outline: none;
+}
+input{
+    font-size: 3rem;
+    border: 3px solid palevioletred;
+    margin-bottom: 1rem;
+    width: 7rem;
+
+}
+button{
+    background-color: palevioletred;
+border: 0;
+padding: 1rem 2rem;
+cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+
+button:not(:first-of-type){
+    margin-left: 0.5rem;
+}
